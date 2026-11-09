@@ -1,0 +1,5 @@
+developers=['kenny','karadi','akash','manish','jebastin']
+ids=[1,2,3,4,5]
+for name,dev_id in zip(developers, ids):
+    print(f"Developer Name: {name}")
+    print(f"Developer ID: {dev_id}")
