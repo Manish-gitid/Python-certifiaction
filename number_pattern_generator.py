@@ -11,3 +11,5 @@ def number_pattern(n):
         result += str(i) + " "
 
     return result.strip()
+
+print(number_pattern(5))  # Output: "1 2 3 4 5"
